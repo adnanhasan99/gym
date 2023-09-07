@@ -1,0 +1,121 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(bg.jpeg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Foldit', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left {
+    position: absolute;
+    top: 20px;
+    left: 34px;
+    display: inline-block;
+    /*border: 2px solid red;*/
+}
+
+.left img {
+    width: 102px;
+    height: 50px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 19px;
+    font-size: 16px;
+    color: white;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 29px auto;
+    /*border: 2px solid green;*/
+}
+
+.right {
+    position: absolute;
+    top: 43px;
+    right: 34px;
+    display: inline-block;
+   /* border: 2px solid yellow;*/
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 12px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn {
+    margin: 0px 9px;
+    padding: 4px 14px;
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Foldit', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.btn:hover {
+    background-color: rgb(205, 186, 186);
+}
+
+.container {
+    border: 2px solid white;
+    padding: 72px;
+    margin: 42px 70px;
+    border-radius: 28px;
+    width: 33%;
+    height: 15%;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 410px;
+    margin: 20ox auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-group input {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
